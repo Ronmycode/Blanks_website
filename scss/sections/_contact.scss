@@ -1,0 +1,108 @@
+@use'../custom' as *;
+
+// *{
+//     border: 1px solid green;
+// }
+
+
+
+.section-contact-form{
+    padding: 10% 0;
+    .title{
+        font-family: Merriweather;
+        font-size: 3rem;
+        text-align: center;
+        text-transform: uppercase;
+        // color: white;
+        padding: 3% 0;
+    }
+    .form{
+        
+        margin: auto;
+        background-color: $blue;
+        border-radius: 3%;    
+        @include media-breakpoint-down(sm){
+            margin: 2rem;
+        }
+        .formulario{
+            padding: 2%;
+            .form-group{
+                // padding: 2%;
+                margin: 0.5rem 1rem;
+                label{
+                    color: white;
+                }
+            }    
+            
+         }
+        
+    }
+    .btn-form{
+        margin: 5%;
+    }
+    .form-img{
+        text-align:  center;
+        img{
+        filter: grayscale(1);
+        height:auto;
+        width: 500px;
+           @include media-breakpoint-down(sm){
+               display: none;
+           }  
+        }
+        
+    }
+}
+
+
+
+//contact page
+
+.section-contact-page{
+    padding: 10% 0;
+    .title{
+        font-family: Merriweather;
+        font-size: 3rem;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        padding: 3% 0;
+    }
+    .form{
+        
+        margin: auto;
+        background-color: $blue;
+        border-radius: 3%;    
+        @include media-breakpoint-down(sm){
+            margin: 2rem;
+        }
+        .formulario{
+            padding: 2%;
+            .form-group{
+                // padding: 2%;
+                margin: 0.5rem 1rem;
+                label{
+                    color: white;
+                }
+            }    
+            
+         }
+        
+    }
+    .btn-form{
+        margin: 5%;
+    }
+    .form-img{
+        text-align:  center;
+        img{
+        filter: grayscale(1);
+        height:auto;
+        width: 500px;
+           @include media-breakpoint-down(sm){
+               display: none;
+           }  
+        }
+        
+    }
+}
+

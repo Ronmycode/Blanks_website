@@ -1,0 +1,44 @@
+
+.testimonials{
+
+
+    &__title{
+        font-size: 3rem;
+        text-align: center;
+        text-transform: uppercase;
+        // padding-bottom: 3rem;
+    }
+    &__card{
+        text-align: center;
+        padding-bottom: 10rem;
+        img{
+            border-radius: 50%;
+            border: 2px solid black;
+            width: 8rem;
+            height: 8rem;
+            object-fit: cover;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%,-20%);
+        }
+    }
+        &__text{
+            font-size: 1.5rem;
+            padding: 2rem 1.25rem;
+            border-radius: 0.625rem;
+            text-align: center;
+            background-color: rgba(31, 131, 133, 0.267);
+        }
+    .name{
+        font-size: 2rem;
+        padding-top: 7rem;
+    }
+
+    .stars{
+        padding: 1rem;
+        i{
+            font-size: 1rem;
+            color: rgb(172, 172, 16);
+        }
+    }
+}

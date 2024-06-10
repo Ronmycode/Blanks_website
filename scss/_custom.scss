@@ -1,0 +1,47 @@
+//segments!!!
+
+
+//navbar settings
+$navbar-color: rgba(20, 20, 20, 0.925);
+$navbar-font-color: rgb(255, 255, 255);
+$navbar-brandname-color: rgb(64, 150, 190) ;
+
+// main colors                  azul-> rgb(42, 49, 132)
+// $blue: rgb(42, 49, 132); original from logo
+$blue: rgb(69, 75, 134);
+
+$white: rgb(255, 255, 255);
+
+// footer
+$top-links: $blue;
+$footer-bg: none;
+$icons-color:  $blue;
+$footer-font: $white;
+$footer-hover:  $blue;
+$footer-links: $white;
+$footer-icons: $blue;
+$footer-sm-icon: $white;
+
+// debug css
+// *{
+//     // background-color: red;
+//     * { outline: 2px dotted red }
+// * * { outline: 2px dotted green }
+// * * * { outline: 2px dotted orange }
+// * * * * { outline: 2px dotted blue }
+// * * * * * { outline: 1px solid red }
+// * * * * * * { outline: 1px solid green }
+// * * * * * * * { outline: 1px solid orange }
+// * * * * * * * * { outline: 1px solid blue }
+
+// * *:hover { border:2px solid #89A81E }                   /* Solid Green */
+// * * *:hover { border:2px solid #F34607 }                 /* Solid Orange */
+// * * * *:hover { border:2px solid #5984C3 }               /* Solid Blue */
+// * * * * *:hover { border:2px solid #CD1821 }             /* Solid Red */
+// * * * * * *:hover { border:2px dotted #89A81E }          /* Dotted Green */
+// * * * * * * *:hover { border:2px dotted #F34607 }        /* Dotted Orange */
+// * * * * * * * *:hover { border:2px dotted #5984C3 }      /* Dotted Blue */
+// * * * * * * * * *:hover { border:2px dotted #CD1821 }    /* Dotted Red */
+// }
+//import bootstrap 5
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

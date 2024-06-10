@@ -1,0 +1,42 @@
+@use '../custom' as *;
+
+#logo-navbar{
+
+    font-family: Montserrat;
+
+    img{
+        padding: 0.5rem;
+        width: 100%;
+        height: 6rem;
+        object-fit: contain;
+        @include media-breakpoint-down(md){
+            height: 4rem;
+        }
+    }
+}
+.menu{
+    
+    // background: $navbar-color;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    #nb-brandname{
+        color: $navbar-brandname-color;
+    }
+
+    li{
+        padding: 0.5rem 1.5rem;
+        a{
+            color:$navbar-font-color !important;
+            a:hover{
+                color: $footer-hover !important;
+            }
+        }
+    }
+    
+    
+}
+
+

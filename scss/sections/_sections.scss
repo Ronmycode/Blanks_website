@@ -1,0 +1,51 @@
+@use'../custom' as *;
+
+// nav{
+    // background-image: url(../../assets/img/net-bg.jpg);
+    // background-size: cover;
+    // background-position: 50% 50%;
+// }
+
+
+// .section-about{
+    // background-image: url(../../assets/img/banner-1.jpg);
+    // background-size:cover;
+    // background-attachment: fixed;
+    // background-position:center;
+    // filter: grayscale(90%);
+// }
+
+// .section-services{
+//     padding: 10% 5%;
+// }
+
+
+.section-icon-des{
+    background-image: url(../../assets/img/net-bg.jpg);
+    // background-size:auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer{
+    font-family: Montserrat;
+    background-image: url(../../assets/img/footer-bg.png);
+    background-size:cover;
+    background-position: 50% 90%;
+}
+
+.section-contact-page{
+    background-image: url(../../assets/img/About-Us.jpg);
+    background-size: cover;
+}
+
+
+.divider{
+    background-color: rgb(255, 255, 255);
+    // background-image: url(../../assets/img/net-bg.jpg);
+    // background-size: cover;
+    min-height: 400px;
+    @include media-breakpoint-down(sm){
+        height: 100px;
+    }
+}

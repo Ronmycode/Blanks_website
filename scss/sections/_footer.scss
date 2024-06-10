@@ -1,0 +1,136 @@
+@use'../custom' as *;
+
+
+footer{
+    padding: 3rem 0rem 1rem 0rem;
+    // background-color: $footer-bg;
+    text-align: center;
+    
+    .contact-box{
+        text-align: center;
+        padding: 0.5rem 0rem;
+        min-width: 20rem;
+        p{
+            color: $top-links;
+        } 
+        a{
+            text-decoration: none;
+            color: $footer-font;
+        }
+        &__icon{
+            width: 4rem;
+            padding: 0.5rem;
+            stroke: $footer-icons;
+            text-align: center;
+    
+            @include media-breakpoint-down(sm){
+                // font-size: 2rem;
+                width: 3rem;
+            }
+        }
+    
+        &__info{
+            padding: 0.4rem;
+            font-weight: 600;
+            &--title{
+                color: $footer-font;
+                font-size: 1.2rem;
+            }
+            &--subtitle{
+                font-size: 1rem;
+                color:$footer-font;
+            }
+            
+        }
+    
+    
+    }
+    
+      
+    .footer-mid{
+        
+        .footer-sm{
+            text-align: center;
+
+            .footer-logo{
+                       
+                    img{
+                        width: 20rem;
+                        @include media-breakpoint-down(sm){
+                            width: 17rem;
+                        }
+                    }
+            }
+            .social-media{
+            
+                padding: 1rem 0rem;
+                a{
+                    color: $footer-font;
+                    
+                    i{
+                        color: $footer-sm-icon;
+                        font-size: 2.5rem;
+                        padding: 0.5rem;
+                        &:hover{
+                            color: $footer-hover;
+                        }
+                        
+                        @include media-breakpoint-down(sm){
+                            font-size: 3rem;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-links{
+
+        padding-top: 2rem;
+        
+        H5{
+            color: $top-links;
+        }
+        hr{
+            background-color: $footer-links;
+        }
+        .company-list{
+            list-style: none;
+            @include media-breakpoint-down(md){
+                    font-size: 1.2rem;
+                }
+                
+            li{
+                margin-bottom: 0.5rem;
+                text-decoration: none;
+        
+                a{
+                    color: $footer-links;
+                    text-decoration: none;
+        
+                    &:hover{
+                        color: $footer-hover;
+                    }
+                }
+            }
+        }      
+    }
+
+
+    //style the copyright
+
+    .footer-bottom{
+        // background-color:$footer-bg;
+        padding: 2rem 0.5rem 0.5rem 0.5rem;
+        &__copyright{
+            color: $footer-links;
+            font-weight: 400;
+
+            a{
+                color: $footer-links;
+                text-decoration: none;
+            }
+        }
+    }
+}

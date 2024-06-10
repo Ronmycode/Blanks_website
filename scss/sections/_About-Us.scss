@@ -1,0 +1,112 @@
+@use'../custom' as *;
+.About-Us{
+    padding-top: 5rem;
+    font-family: Merriweather;
+
+    .title{
+        font-size: 3rem;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 2rem 0;
+    }
+    .story{
+        text-align: center;
+        color: $blue;
+        font-weight: 600;
+
+        .text{
+            padding: 5% 8%;
+            font-size: 2rem;
+            @include media-breakpoint-down(sm){
+                font-size: 1rem;
+            }
+        }
+
+        .btn-stl{
+            font-size: 1.5rem;
+            @include media-breakpoint-down(sm){
+                font-size: 0.8rem;
+            }
+        }
+    }
+    .about-img{
+        text-align: center;
+        padding-bottom: 10%;
+        img{
+            filter: grayscale(0.5);
+        max-width: 300px;
+        border-radius:5%;
+        margin: 5% 3%;
+        }
+    }
+
+    .about-img-page{
+        text-align: center;
+        img{
+        
+        max-width: 200px;
+        border-radius:5%;
+        margin: 7% 5%;
+        }
+    }
+
+}
+
+.section-highlight{
+    // background-color: rgba(39, 25, 90, 0.171);
+    text-align: center;
+    // padding: 5%;
+    filter: grayscale(0.3);
+    img{
+        max-width: 15rem;
+        
+    }
+    // @include media-breakpoint-down(sm){
+    //     img{
+    //         max-width: 5rem;
+    //     }
+    // }
+    .highlight__BO{
+        font-size: 3rem;
+        padding: 2%;
+    }
+    .highlight__DBO{
+        font-size: 3rem;
+        padding: 2%;
+    }
+    .highlight__MO{
+        font-size: 3rem;
+        padding: 2%;
+    }
+}
+
+.about-cert-page{
+    // height: 500px;
+    text-align: center;
+    .title{
+        text-transform: uppercase;
+        padding: 5%;
+    }
+    .object1{
+        // background-color: red;
+        // height: 500px;
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 3%;
+        @include media-breakpoint-down(sm){
+            font-size: 1rem;
+        }
+    }
+    .object2{
+        margin: auto;
+        height: 500px;    
+        background-position: 50% 50%;
+        background-image: url(../../assets/img/SDVOSB.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        @include media-breakpoint-down(md){
+            height: 300px;
+        }
+
+    }
+}

@@ -1,0 +1,193 @@
+@use'../custom' as *;
+.section-services{
+    background-color: rgba(7, 7, 116, 0.1);
+    padding: 5% 0 5rem 0;
+    font-family: Merriweather;
+    
+    .title{
+        font-size: 3rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .intro{
+        padding: 5% 8%;
+        font-size: 2rem;
+        text-align: center;
+        @include media-breakpoint-down(sm){
+            font-size: 1rem;
+        }
+    }
+
+    .services{   
+        text-align: center;
+        h5{
+            color: white;
+            padding: 10% 0% 0% 0%;
+            text-transform: uppercase;
+        }
+        &__first{
+            // padding: 10%;
+            .service-bg{
+                min-width: 15rem;
+                background-color: $blue;
+                border-radius: 5%;
+                margin: 5%;
+                padding: 5%;
+            }
+            .service-img-round{
+                height: 10rem;
+                width: 10rem;
+                background-image: url(../../assets/img/service-1.jpg);
+                background-size: cover;
+                background-position: 40% 50%;
+                border-radius: 50%;
+                margin: auto;
+            }
+            p{
+                color: white;
+                padding: 5% 3%;
+            }
+        }
+
+        &__second{
+            // padding: 10%;
+            .service-bg{
+                min-width: 15rem;
+                background-color: $blue;
+                border-radius: 5%;
+                margin: 5%;
+                padding: 5%;
+            }
+            .service-img-round{
+                height: 10rem;
+                width: 10rem;
+                background-image: url(../../assets/img/service-2.jpg);
+                background-size: cover;
+                background-position: 10% 50%;
+                border-radius: 50%;
+                margin: auto;
+            }
+            
+            p{
+                color: white;
+                padding: 5% 3%;
+            }
+        }
+
+        &__third{
+            // padding: 10%;
+            .service-bg{
+                min-width: 15rem;
+                background-color: $blue;
+                border-radius: 5%;
+                margin: 5%;
+                padding: 5%;
+            }
+            .service-img-round{
+                height: 10rem;
+                width: 10rem;
+                background-image: url(../../assets/img/service-3.jpg);
+                background-size: cover;
+                background-position: 40% 50%;
+                border-radius: 50%;
+                margin: auto;
+                // margin-bottom: 5%;
+            }
+            p{
+                color: white;
+                padding: 5% 3%;
+            }
+        }
+    }
+}
+
+.services-page{
+    background-color: rgba(10, 10, 77, 0.11);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    .title{
+        text-transform: uppercase;
+        padding: 5%;
+    }
+    .object1{
+        // background-color: red;
+        // height: 500px;
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 3%;
+        @include media-breakpoint-down(sm){
+            font-size: 1rem;
+        }
+    }
+    .object2{
+        filter: grayscale(0.5);
+        background-image: url(../../assets/img/service-1.jpg);
+        background-size: cover;
+        // height: 500px;
+        @include media-breakpoint-down(md){
+            height: 300px;
+        }
+    // background-repeat: no-repeat;
+    }
+    .object3{
+        filter: grayscale(0.5);
+        background-image: url(../../assets/img/service-2.jpg);
+        background-size: cover;
+        // height: 500px;
+        @include media-breakpoint-down(md){
+            height: 300px;
+        }
+    }
+    .object4{
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 3%;
+        @include media-breakpoint-down(sm){
+            font-size: 1rem;
+        }
+    }
+    .object5{
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 3%;
+        @include media-breakpoint-down(sm){
+            font-size: 1rem;
+        }
+    }
+    .object6{
+        filter: grayscale(0.5);
+        background-image: url(../../assets/img/service-3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        // height: 500px;
+        @include media-breakpoint-down(md){
+            height: 300px;
+        }
+    }
+}
+
+.divider1{
+    font-weight: 600;
+    font-style: italic;
+    font-size: 3rem;
+    text-align: center;
+    @include media-breakpoint-down(md){
+        font-size: 2rem;
+    }
+    p{
+        padding: 5%;
+    }
+
+}
+.divider2{
+    font-weight: 600;
+    font-style: italic;
+    font-size: 3rem;
+    text-align: center;
+    p{
+        padding: 10% 3%;
+    }
+    @include media-breakpoint-down(md){
+        font-size: 2rem;
+    }
+}
